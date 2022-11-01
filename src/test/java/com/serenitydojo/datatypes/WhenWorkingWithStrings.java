@@ -14,7 +14,6 @@ public class WhenWorkingWithStrings {
         String fullName = "Ljubisha Milosov";
         String lowerCaseFulltName = fullName.toLowerCase();
         assertThat(lowerCaseFulltName, equalTo("ljubisha milosov"));
-
     }
 
     @Test

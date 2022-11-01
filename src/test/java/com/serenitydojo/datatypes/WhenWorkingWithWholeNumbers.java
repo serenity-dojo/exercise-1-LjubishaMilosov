@@ -13,8 +13,10 @@ public class WhenWorkingWithWholeNumbers {
         int initialYear = 1985;
         int targetYear = 0;
 
+
         //TODO: create a new int variable called timeJump and assign it a value
         // Next add this variable to initialYear and assign the result to targetYear so that target year is equal to 2015
+
 
         int timeJump = 30;
         targetYear = initialYear + timeJump;
