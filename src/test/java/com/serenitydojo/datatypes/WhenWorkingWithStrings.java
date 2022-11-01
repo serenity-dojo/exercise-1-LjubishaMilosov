@@ -9,7 +9,7 @@ public class WhenWorkingWithStrings {
 
 
     @Test
-    public void convertingToLowerCase(){
+    public void convertingToLowerCase() {
 
         String fullName = "Ljubisha Milosov";
         String lowerCaseFulltName = fullName.toLowerCase();
@@ -18,15 +18,16 @@ public class WhenWorkingWithStrings {
     }
 
     @Test
-    public void convertingToUpperCase(){
+    public void convertingToUpperCase() {
 
         String fullName = "Ljubisha Milosov";
         String upperCaseFulltName = fullName.toUpperCase();
         assertThat(upperCaseFulltName, equalTo("LJUBISHA MILOSOV"));
 
     }
+
     @Test
-    public void trimmingExtraSpace(){
+    public void trimmingExtraSpace() {
 
         String fullName = " Ljubisha Milosov ";
         String extraSpaceTrimmed = fullName.trim();
@@ -35,7 +36,7 @@ public class WhenWorkingWithStrings {
     }
 
     @Test
-    public void findingTheLengthOfString(){
+    public void findingTheLengthOfString() {
 
         String fullName = "Ljubisha Milosov";
         assertThat(fullName.length(), equalTo(16));
@@ -43,7 +44,7 @@ public class WhenWorkingWithStrings {
     }
 
     @Test
-    public void replacingTextInAString(){
+    public void replacingTextInAString() {
 
         String fullName = "Ljubisha Milosov";
         String replacedFullName = fullName.replace("Ljubisha", "Dimitar");

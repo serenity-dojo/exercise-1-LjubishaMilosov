@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class WhenWorkingWithWholeNumbers {
 
     @Test
-    public void addingNumbersTogether(){
+    public void addingNumbersTogether() {
 
         int initialYear = 1985;
         int targetYear = 0;

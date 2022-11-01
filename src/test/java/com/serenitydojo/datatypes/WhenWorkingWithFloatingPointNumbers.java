@@ -8,7 +8,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 public class WhenWorkingWithFloatingPointNumbers {
 
     @Test
-    public void convertingCelsiusToFahrenheit(){
+    public void convertingCelsiusToFahrenheit() {
 
         double celsius = 10.0;
         double fahrenheit;
@@ -18,7 +18,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     }
 
     @Test
-    public void convertingKilogramsToPounds(){
+    public void convertingKilogramsToPounds() {
 
         double kilograms = 10.0;
         double pounds;
